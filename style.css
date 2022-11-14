@@ -1,0 +1,26 @@
+.titulo1{
+    color: #AF0404;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+.titulo2{
+    color: #AF0404;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+.titulo3{
+    color: #171717;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+}
+body{
+    background-image: url(https://media3.giphy.com/media/0Xc4DuQ5E8yB4ZL56x/200w.webp?cid=ecf05e47ni66um1bue6jdabq078yzkypia3q8x3n3c2xjo2t&rid=200w.webp&ct=g);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #414141;
+    background-position: center;
+}
+
