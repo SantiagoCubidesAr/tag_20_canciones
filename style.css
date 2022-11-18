@@ -1,10 +1,9 @@
 .titulo1{
     color: #AF0404;
-    background-color: #252525;
     display: flex;
     justify-content: center;
     font-family: 'Lobster', cursive;
-    font-size: 3rem;
+    
 }
 .titulo2{
     color: #AF0404;
@@ -17,12 +16,7 @@
     color: #171717;
     font-family: 'Lobster', cursive;
     font-size: 1.5rem;
-}
-body{
-    background-image: url(https://media3.giphy.com/media/0Xc4DuQ5E8yB4ZL56x/200w.webp?cid=ecf05e47ni66um1bue6jdabq078yzkypia3q8x3n3c2xjo2t&rid=200w.webp&ct=g);
-    background-color: #414141;
-    background-position: center;
-    background-size: cover;
+
 }
 
 .titulo4{
@@ -31,10 +25,45 @@ body{
     font-size: 2rem;
 }
 .contenedor{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 950px;
 }
 .boton{
     background-color: #AF0404;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
+body{
+    background-image: url(https://media3.giphy.com/media/0Xc4DuQ5E8yB4ZL56x/200w.webp?cid=ecf05e47ni66um1bue6jdabq078yzkypia3q8x3n3c2xjo2t&rid=200w.webp&ct=g);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: silver;
+}
+.table{
+    background-color: #171717;
+    color: #AF0404;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th:hover{
+    color: #AF0404;
+    font-family: 'Lobster', cursive;
+    background-color: silver;
+}
+.table tr{
+    color: #AF0404;
+    font-family: 'Lobster', cursive;
+    background-color: #171717;
+}
+caption{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+.table td:hover{
+    color: #AF0404;
+    background-color: silver;
+}
